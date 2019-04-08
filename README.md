@@ -16,8 +16,8 @@ Because it was unmaintained, ftape was removed since kernel 2.6.20. But there ar
 Warnings
 --------
 
-Formatting of cartridges do not work.
-It is no longer possible to have both floppy.ko and ftape.ko/zftape.ko loaded at the same time if the drives are connected to the same controller. Therefore none of them can be compiled into the kernel directly in this case if both drives should be usable.
-Maybe this driver have problems on SMP machines.
-Maybe this driver have problems on 64Bit x86 machines.
-This patch was tested and work for me but there is no warranty! 
+* Formatting of cartridges do not work.
+* It is no longer possible to have both floppy.ko and ftape.ko/zftape.ko loaded at the same time if the drives are connected to the same controller. Therefore none of them can be compiled into the kernel directly in this case if both drives should be usable.
+* Maybe this driver have problems on SMP machines.
+* Maybe this driver have problems on 64Bit x86 machines.
+* This patch was tested and work for me but there is no warranty! 
